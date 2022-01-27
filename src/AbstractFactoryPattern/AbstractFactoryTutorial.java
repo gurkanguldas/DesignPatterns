@@ -5,8 +5,8 @@ import AbstractFactoryPattern.Factories.AbstractFactory;
 public class AbstractFactoryTutorial 
 {
 	/**
-	 * The abstract factory design pattern has multiple superclasses with 
-	 * required object creation for subclasses of the same superclass. 
+	 * The abstract factory design pattern creates the required object for 
+	 * subclasses of the same superclass and has more than one superclass. 
 	 * Therefore, a factory runs for each superclass. The abstract factory
 	 * design pattern acts as the main factory that produces these factories.
 	 */
