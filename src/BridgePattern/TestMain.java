@@ -1,7 +1,8 @@
 package BridgePattern;
 
 public class TestMain {
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		BridgeTutorial bTutorial1 = new FirstPatternType(new FirstPatternName());
 		BridgeTutorial bTutorial2 = new SecondPatternType(new SecondPatternName());
 		
