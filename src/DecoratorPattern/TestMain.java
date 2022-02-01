@@ -3,7 +3,7 @@ package DecoratorPattern;
 public class TestMain {
 	public static void main(String[] args) {
 		IPattern dTutorial1 = new PatternType("Creation Design Pattern");
-		//Pattern type has been added to the pattern as a new property.
+		//Pattern name has been added to the pattern as a new property.
 		IPattern dTutorial2 = new PatternName(new PatternType("Structural Design Pattern"), "Decorator Design Pattern");
 		
 		System.out.println("Tutorial 1 Variables\n"+dTutorial1.toString());
